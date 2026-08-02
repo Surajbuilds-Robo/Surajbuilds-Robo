@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 436 434" width="436" height="434">
+  <defs>
+    <!-- Dark Mode Terminal Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+
+    <!-- Matrix Green Text Glow Filter -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      .term-bg {
+        fill: url(#bg-grad);
+        stroke: #30363d;
+        stroke-width: 1.5px;
+        rx: 10px;
+        ry: 10px;
+      }
+      .term-header {
+        fill: #161b22;
+        stroke: #30363d;
+        stroke-width: 1px;
+      }
+      .dot-red { fill: #ff5f56; }
+      .dot-yellow { fill: #ffbd2e; }
+      .dot-green { fill: #27c93f; }
+      
+      .term-title {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 11px;
+        fill: #8b949e;
+        font-weight: 600;
+      }
+      
+      .ascii-text {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 11px;
+        line-height: 13.0px;
+        fill: #39d353;
+        letter-spacing: 1px;
+        white-space: pre;
+        filter: url(#neon-glow);
+      }
+
+      .cursor {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 13px;
+        fill: #58a6ff;
+        font-weight: bold;
+      }
+    </style>
+  </defs>
+
+  <!-- Terminal Window Background -->
+  <rect class="term-bg" x="0.75" y="0.75" width="434.5" height="432.5" />
+
+  <!-- Terminal Header Bar -->
+  <path class="term-header" d="M 0.75,10 A 10,10 0 0,1 10.75,0.75 L 425.25,0.75 A 10,10 0 0,1 435.25,10 L 435.25,32 L 0.75,32 Z" />
+
+  <!-- Window Controls -->
+  <circle class="dot-red" cx="18" cy="16" r="5.5" />
+  <circle class="dot-yellow" cx="34" cy="16" r="5.5" />
+  <circle class="dot-green" cx="50" cy="16" r="5.5" />
+
+  <!-- Terminal Title -->
+  <text class="term-title" x="218.0" y="20" text-anchor="middle">ascii-portrait.sh — 80x28</text>
+
+  <!-- ASCII Lines Container -->
+  <g transform="translate(24, 45)">
+    <text class="ascii-text" x="0" y="0" opacity="0">
+      @@@@@@@@@@@@@#%@@@@%%*#*++@#+++*@@@@%%%%%%#+*%%%%%%###
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="0.0s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="13" opacity="0">
+      @@@@@@@@@@@@#*#*+*#++*#%**#@+=-=#@@@@%####%++#%%%%%###
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="0.09s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="26" opacity="0">
+      @%#%%*#@@@%++*%+*#%#%@@@%#%%%##*+%@@@@####%#++##%%####
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="0.18s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="39" opacity="0">
+      =+-=*-%@@@%+=+%@@@@@@@@@%%@@@@@@%@@@@@#*###%#**#######
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="0.27s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="52" opacity="0">
+      :--:*:*@@@#++%@@@@@@@@%%%%@@@@@@@@@@@@@*****%#**####*#
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="0.36s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="65" opacity="0">
+      .--:+=-@@@@#@@@@@@@@@@%%%%%@%%@@@@@@@@@%++++*#***#####
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="0.45s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="78" opacity="0">
+      ::-:=*:%@@@@@@@@@@@@@@@@%%%%@@@@@@@@@@@@*+==+*#*+**###
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="0.54s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="91" opacity="0">
+      ::--:#:=@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@%=====**+=****
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="0.62s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="104" opacity="0">
+      ..-==%##@@@@@@@@@@@@@@@@@%#***+==*@@@@@@@+----+*+==+**
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="0.71s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="117" opacity="0">
+      #%@@@@@@@@@@@@#%@@%%%@@@%#++*++++=*@@@@@@@-----+*+=+**
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="0.8s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="130" opacity="0">
+      @@@@@@@@@@@@@@*%@@##*+--=*%%##*+-:-#=+@@%@*::::-++==+*
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="0.89s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="143" opacity="0">
+      @@@@@@@@@@@%@@@##%@@@*.&#160;..::::...&#160;:+--%@%%@=::::-++=++
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="0.98s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="156" opacity="0">
+      @@@@@@@@@@@%%@%+*+=-::...&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.=*+*@@%@#:::.:=++=+
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="1.07s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="169" opacity="0">
+      @@@@@@@@@@@%%@*:.&#160;&#160;&#160;..&#160;&#160;&#160;&#160;&#160;..&#160;....:-=+%@@%%@+:::.-+++=
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="1.16s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="182" opacity="0">
+      @@@@@@@@@@@@#@#-....:--.-++-..:-:::-*@@@@@%@@-::::-+++
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="1.25s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="195" opacity="0">
+      @@@@@@@@@@@@%%@+-::-#@@#***+=+##+.:-**@@*#%@@#:::::=++
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="1.34s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="208" opacity="0">
+      @@@%@@@@@@@@@#@@#-+@%%*-::::-*-::::=*-=:&#160;&#160;.-*%=::..:::
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="1.43s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="221" opacity="0">
+      @@@%@@@@@@@@@%%@@#++=*+:.&#160;&#160;.:.&#160;&#160;.-=#+.&#160;&#160;..&#160;&#160;&#160;...&#160;&#160;..&#160;&#160;
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="1.52s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="234" opacity="0">
+      @@@@@@@@@@@@@@%@@@#-.:=====:.&#160;&#160;.=*#*:&#160;..&#160;&#160;...&#160;..&#160;...&#160;&#160;
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="1.61s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="247" opacity="0">
+      @@@@%@@@@@@@@@%@@@@**=:::-:.&#160;.-+##=.&#160;.&#160;&#160;&#160;&#160;&#160;&#160;&#160;..&#160;......
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="1.7s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="260" opacity="0">
+      @@@@%@@@@@@@@@%%@@@##@*====++#%@%-&#160;&#160;....&#160;&#160;&#160;&#160;&#160;..&#160;&#160;&#160;....
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="1.79s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="273" opacity="0">
+      @@@@%@@@@@@@@@@%@@@#*@%####%%%@%-:-.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..&#160;&#160;&#160;&#160;&#160;..:
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="1.88s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="286" opacity="0">
+      @@@@%@@@@@@@@@@%%@@@*%%*++#**#*-..=**+=:&#160;.&#160;&#160;..&#160;&#160;&#160;&#160;&#160;&#160;.:
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="1.96s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="299" opacity="0">
+      @@@@@@@@@@@@@@@%%@@@*#@%*%@@#*=-...-+*+:&#160;.&#160;..&#160;&#160;&#160;&#160;&#160;&#160;&#160;..
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="2.05s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="312" opacity="0">
+      @@@@@%@@@@@@%@@%%@@@##%+*#%%@#+=:..&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.&#160;
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="2.14s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="325" opacity="0">
+      @@@@@%@@@@@@@@@@%@@@%+-&#160;&#160;.:::=+=:.&#160;&#160;&#160;&#160;..&#160;&#160;..&#160;&#160;..&#160;&#160;&#160;&#160;&#160;&#160;
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="2.23s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="338" opacity="0">
+      @@@@@%@@@@@@@%@@%%@@@**+:.&#160;&#160;&#160;&#160;:-..&#160;&#160;&#160;&#160;&#160;&#160;&#160;..&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;&#160;
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="2.32s" fill="freeze" />
+    </text>
+    <text class="ascii-text" x="0" y="351" opacity="0">
+      %@@@@%%@@@@@@%@@@%@@@#++++=:...:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      <animate attributeName="opacity" to="1" dur="0.15s" begin="2.41s" fill="freeze" />
+    </text>
+
+    <!-- Animated Blinking Cursor -->
+    <text class="cursor" x="0" y="369">
+      &#62;&#160;_
+      <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
+    </text>
+  </g>
+</svg>
