@@ -68,26 +68,15 @@ My goal is to understand how complete robotic systems work — from low-level ha
 
 ### 🛠️ Technology I'm Exploring
 
-**Programming**
-- Python
-- C++
-- Data Structures and Algorithms
 
-**Robotics & Embedded**
-- ROS 2
-- ESP32 / Arduino
-- Gazebo
-- Linux
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,linux,ubuntu,bash,git,github,vscode,arduino,opencv,pytorch&theme=dark&perline=6" alt="Technology icons" />
+</p>
 
-**AI & Perception**
-- OpenCV
-- PyTorch
-- YOLO
-
-**Development Tools**
-- Git & GitHub
-- VS Code
-- Ubuntu
+<p align="center">
+  <b>Robotics Middleware</b><br/>
+  <img src="https://skillicons.dev/icons?i=ros&theme=dark" alt="ROS icon" />
+</p>
 
 ---
 
@@ -117,11 +106,25 @@ Projects will be added here as I build and document them.
 
 ---
 
-### 📫 Connect
+### 📊 GitHub Analytics
 
-- GitHub: [@Surajbuilds-Robo](https://github.com/Surajbuilds-Robo)
+<p align="center">
+  <img
+    height="165"
+    src="https://github-readme-stats.vercel.app/api?username=Surajbuilds-Robo&show_icons=true&theme=transparent&hide_border=true&title_color=22C55E&icon_color=22D3EE&text_color=C9D1D9"
+    alt="GitHub statistics"
+  />
+  <img
+    height="165"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Surajbuilds-Robo&layout=compact&theme=transparent&hide_border=true&title_color=22C55E&text_color=C9D1D9"
+    alt="Top programming languages"
+  />
+</p>
 
----
+<p align="center">
+  <i>Consistent learning. Practical engineering. Continuous improvement.</i>
+</p>
+
 
 <p align="center">
   <i>"Understand the system. Build the robot. Make it autonomous."</i>
