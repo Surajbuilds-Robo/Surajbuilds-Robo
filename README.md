@@ -1,3 +1,13 @@
+
+
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:064E3B,100:0D1117&height=220&section=header&text=ROBOTICS%20ENGINEERING&fontSize=38&fontColor=22C55E&fontAlignY=35&desc=Building%20Intelligent%20Autonomous%20Systems&descAlignY=55&descSize=16&animation=fadeIn"
+    width="100%"
+    alt="Robotics Engineering banner"
+  />
+</p>
+
 # `> whoami`
 
 <h1 align="center">Suraj | Robotics Systems Engineer</h1>
