@@ -1,72 +1,118 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=39D353&center=true&vcenter=true&width=600&lines=Hello%2C+World!+%F0%9F%90%A7;I'm+Suraj+--+Python+%26+AI+Engineer;Welcome+to+my+Animated+GitHub+Profile!" alt="Typing Header" />
-</h1>
+# `> whoami`
+
+<h1 align="center">Suraj | Robotics Systems Engineer</h1>
+
+<h3 align="center">
+  Aspiring Full-Stack Robotics Systems Engineer
+</h3>
 
 <p align="center">
-  <b>Building scalable systems, high-performance web applications, and autonomous AI agents.</b>
-</p>
-
-<p align="center">
-  <a href="https://github.com"><img src="https://img.shields.io/badge/Status-🟢_Active_Building-39d353?style=for-the-badge&logo=github&logoColor=white" alt="Status Badge"/></a>
-  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge"/></a>
-  <a href="https://rust-lang.org"><img src="https://img.shields.io/badge/Rust-Core-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust Badge"/></a>
-  <a href="https://linux.org"><img src="https://img.shields.io/badge/Linux-Arch/Fedora-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux Badge"/></a>
+  <code>ROBOTICS</code> • <code>LINUX</code> • <code>C++</code> • <code>PYTHON</code> • <code>ROS 2</code> • <code>AUTONOMOUS SYSTEMS</code>
 </p>
 
 ---
 
-## 👨‍💻 Animated Profile & System Info
+### 🖥️ Terminal
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" valign="top" width="50%">
-        <h3>🎨 Animated ASCII Portrait</h3>
-        <a href="./avi-ascii.svg">
-          <img src="./avi-ascii.svg" alt="Animated ASCII Portrait" width="100%" />
-        </a>
-      </td>
-      <td align="center" valign="top" width="50%">
-        <h3>💻 Neofetch Terminal Info</h3>
-        <a href="./info-card.svg">
-          <img src="./info-card.svg" alt="Neofetch Info Card" width="100%" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
+```bash
+suraj@robotics:~$ whoami
+> Engineering student | Robotics enthusiast
+
+suraj@robotics:~$ mission
+> Building intelligent and autonomous robotic systems
+
+suraj@robotics:~$ current_status
+> LEARNING | BUILDING | EXPERIMENTING | DOCUMENTING
+
+suraj@robotics:~$ environment
+> Windows + Linux (Dual Boot)
+```
 
 ---
 
-## 📊 Live Contribution Heatmap & Streaks
+### 🎯 My Mission
 
-<div align="center">
-  <a href="./contrib-heatmap.svg">
-    <img src="./contrib-heatmap.svg" alt="GitHub Contribution Heatmap" width="100%" />
-  </a>
-</div>
+I am working towards becoming a **Full-Stack Robotics Systems Engineer**, focusing on the intersection of software engineering, embedded systems, robotics middleware, and intelligent autonomous systems.
+
+My goal is to understand how complete robotic systems work — from low-level hardware control to high-level perception and navigation.
 
 ---
 
-## 🚀 Tech Stack & Tooling
+### 🧭 Engineering Roadmap
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,ts,rust,cpp,nextjs,react,fastapi,pytorch,postgres,redis,docker,kubernetes,git,linux,neovim,vscode" alt="Tech Stack Icons" />
-</div>
+| Domain | Learning Focus | Status |
+|---|---|---|
+| Python | Advanced Python, OOP | Learning |
+| C++ | Modern C++17/20 | Planned |
+| DSA | Algorithms and problem solving | Planned |
+| Linux | Terminal, shell, system fundamentals | Learning |
+| Embedded Systems | ESP32, Arduino, sensors | Planned |
+| ROS 2 | Nodes, topics, services, actions | Planned |
+| Robotics | SLAM, Nav2, Gazebo | Planned |
+| Computer Vision | OpenCV, YOLO | Planned |
+| Edge AI | PyTorch, ONNX, deployment | Planned |
+
+*Statuses represent my learning roadmap, not completed expertise.*
 
 ---
 
-## ⚙️ How It Works (Zero-JavaScript SVG Architecture)
+### 🛠️ Technology I'm Exploring
 
-This profile README uses pure **SMIL (Synchronized Multimedia Integration Language)** embedded inside standard SVG files.
+**Programming**
+- Python
+- C++
+- Data Structures and Algorithms
 
-1. **`avi-ascii.svg`**: Python converts profile images into ASCII character grids and renders SMIL `<animate>` tags for typing reveals and blinking terminal cursors.
-2. **`info-card.svg`**: Neofetch-style system metrics animated line-by-line using pure vector keyframes.
-3. **`contrib-heatmap.svg`**: Scraped contribution data formatted into GitHub dark mode grid squares with top statistics cards.
-4. **GitHub Actions (`update-profile-art.yml`)**: Cron workflow automatically updates contribution metrics and SVGs every midnight.
+**Robotics & Embedded**
+- ROS 2
+- ESP32 / Arduino
+- Gazebo
+- Linux
+
+**AI & Perception**
+- OpenCV
+- PyTorch
+- YOLO
+
+**Development Tools**
+- Git & GitHub
+- VS Code
+- Ubuntu
+
+---
+
+### 🤖 Featured Robotics Projects
+
+Projects will be added here as I build and document them.
+
+| Project | Description |
+|---|---|
+| Autonomous Mobile Robot | Planned robotics simulation and navigation project |
+| ROS 2 Learning Workspace | ROS 2 concepts and practical experiments |
+| Robotics Algorithms | Path planning and spatial algorithms |
+| Embedded Systems Lab | Microcontroller and sensor experiments |
+| Robotics Computer Vision | Computer vision experiments |
+
+---
+
+### 📈 My Development Philosophy
+
+```text
+01. Learn the fundamentals.
+02. Build practical systems.
+03. Test on simulation and hardware.
+04. Document every experiment.
+05. Improve through iteration.
+```
+
+---
+
+### 📫 Connect
+
+- GitHub: [@Surajbuilds-Robo](https://github.com/Surajbuilds-Robo)
 
 ---
 
 <p align="center">
-  <sub>Built with ❤️ using Python, Pure SVGs, and GitHub Actions Automation.</sub>
+  <i>"Understand the system. Build the robot. Make it autonomous."</i>
 </p>
